@@ -59,7 +59,7 @@ footer {
 }
 
 .graphic-banner-text-container.text {
-  width: 20rem;
+  width: 25rem;  /* Redline specs width too narrow */
   padding: 2rem 3rem;
   position: relative;
   top: 9rem;
@@ -74,7 +74,6 @@ footer {
 .graphic-banner-text-container>.text-2 {
   font-size: 2rem;
   font-weight: bold;
-  margin: 0.25rem 0 2rem 2rem;
 }
 
 nav {
