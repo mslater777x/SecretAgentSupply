@@ -88,6 +88,10 @@ nav ul {
   margin: 0 auto;
 }
 
+.mobile-navbar {
+  display: none;
+}
+
 nav ul li {
   color: white;
   margin: 0.75rem 0;
@@ -146,4 +150,32 @@ footer {
 .footer-text {
   position: relative;
   top: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .graphic-banner-text-container.text {
+    width: 20rem;
+  }
+
+  .graphic-banner-text-container>.text-2 {
+    font-size: 1.5rem;
+  }
+
+  .desktop-navbar {
+    display: none;
+  }
+
+  .mobile-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .product-container {
+    width: 47%;
+    display: block;
+  }
 }
