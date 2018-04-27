@@ -48,16 +48,14 @@ footer {
   background-position: center;
   background-size: cover;
   height: 25rem;
-
-  vertical-align: middle;
 }
-
+/*
 .graphic-banner>.page-content-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-
+*/
 .graphic-banner-text-container.text {
   width: 25rem;  /* Redline specs width too narrow */
   padding: 2rem 3rem;
@@ -175,7 +173,67 @@ footer {
 
 
   .product-container {
-    width: 47%;
+    min-width: 47%;
     display: block;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  html {
+    font-size: 16px;
+  }
+
+  .graphic-banner {
+    height: 15rem;
+  }
+
+  .graphic-banner-text-container.text {
+    width: 100%;
+    padding: 1rem 2rem;
+    position: relative;
+    top: 10rem;
+  }
+
+  .graphic-banner-text-container>.text-1 {
+    font-size: 0.77rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+
+  .graphic-banner-text-container>.text-2 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .store-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .store-info-category {
+    display: block;
+    width: 90%;
+  }
+
+  footer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+
+  .logo-banner-graphic {
+    height: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  }
+  .logo-banner-title {
+    font-size: 0.75rem;
+    margin: 0.5rem 0
   }
 }
