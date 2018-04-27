@@ -1,0 +1,150 @@
+/* Universal page styles */
+
+html {
+  font-size: 18px
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+.page-content-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo-banner,
+.graphic-banner-text-container.text,
+.product-description,
+.store-info-category,
+footer {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  }
+
+
+/* Header Section */
+.logo-banner-graphic,
+.logo-banner-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo-banner-graphic {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.logo-banner-title {
+  margin: 1rem 0;
+}
+
+
+.graphic-banner {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+
+  vertical-align: middle;
+}
+
+.graphic-banner>.page-content-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.graphic-banner-text-container.text {
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+.graphic-banner-text-container>.text-1 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.graphic-banner-text-container>.text-2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.25rem 0 2rem 2rem;
+}
+
+nav {
+  background-color: firebrick;
+}
+
+nav ul {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin: 0 auto;
+}
+
+nav ul li {
+  color: white;
+  margin: 0.75rem 0;
+}
+
+
+/* Page Content Section // Main Body */
+
+.main-content {
+  max-width: 960px;
+}
+
+.product-gallery,
+.store-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-container {
+  width: 30%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid black;
+  margin: 3rem 0;
+}
+
+.store-info>.container {
+  width: 35%;
+  margin-bottom: 4rem;
+}
+
+.product-image {
+  height: 9rem;
+  padding: 2rem 0;
+}
+
+.product-description {
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+.store-info-category {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*  Footer Section */
+
+footer {
+  height: 5rem;
+}
+
+.footer-text {
+  position: relative;
+  top: 2rem;
+}

@@ -3,70 +3,90 @@
   <head>
     <meta charset="utf-8">
     <title>Secret Agent Supply Inc.</title>
-    <link rel="stylesheet" href="/resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/reset.css">
     <link rel="stylesheet" href="resources/css/style.css">
   </head>
   <body>
 
     <!-- Header Section: Banner / Cover Photo & Info / Nav Section -->
-    <div class="header">
-      <div class="header logo-banner">
-        <div class="page-content">
-          <img src="resources/images/logo.png" alt="Secret Agent Supply Inc. Logo">
-          <h1 class="logo-banner-title">SECRET AGENT SUPPLY INC.</h1>
+
+    <header>
+
+      <!-- Banner: Solid top-bar w/ logo -->
+      <div class="logo-banner">
+        <div class="page-content-container logo-banner-items">
+          <img class="logo-banner-graphic" src="resources/images/logo.png" alt="Secret Agent Supply Inc. Logo">
+          <span><h1 class="logo-banner-title">SECRET AGENT SUPPLY INC.</h1></span>
         </div>
       </div>
-      <div class="header graphic-banner">
-        <div class="header graphic-banner text-container">
-          <p class="header graphic-banner text-1">NEW ARRIVAL</p>
-          <h2 class="header graphic-banner text-2">SPORT BIKES AND MOTORCYCLES</h2>
+
+      <!-- Graphic pic background w/ floating text -->
+      <div class="graphic-banner">
+        <div class="page-content-container ">
+          <div class="graphic-banner-text-container text">
+            <p class="text-1">NEW ARRIVAL</p>
+            <h2 class="text-2">SPORT BIKES AND MOTORCYCLES</h2>
+          </div>
+          <div class="graphic-banner-text-container blank" >
+              <!-- Empty/transparent box to the right of graphic-banner text elements for layout/spacing purposes -->
+          </div>
         </div>
       </div>
-      <nav class="header navigation">
-        <ul class="page-content">
-          <li>Eyewear</li>
-          <li>Apparel</li>
-          <li>Gadgets</li>
-          <li>Vehicles</li>
-          <li>Classes</li>
-          <li>Contact</li>
-        </ul>
+
+      <!-- Solid color nav bar at base of header section -->
+      <nav>
+        <div class="page-content-container">
+          <ul>
+            <li>Eyewear</li>
+            <li>Apparel</li>
+            <li>Gadgets</li>
+            <li>Vehicles</li>
+            <li>Classes</li>
+            <li>Contact</li>
+          </ul>
+        </div>
       </nav>
-    </div>
+    </header>
+
+
 
     <!-- Page Content: Image Gallery / Store Location & Hours -->
-    <div class="main-content">
-      <!-- Photos & Descriptions of Products -->
-      <div class="product-gallery page-content">
-        <div class="container">
-          <img src="resources/images/pen.png" alt="Product Image">
-          <h2 class="product-description">Exploding Pen</h2>
+      <div class="main-content page-content-container">
+        <!-- Photos & Descriptions of Products -->
+        <div class="product-gallery page-content-container">
+          <div class="product-container">
+            <img class="product-image" src="resources/images/pen.png" alt="Product Image">
+            <h2 class="product-description">Exploding Pen</h2>
+          </div>
+          <div class="product-container">
+            <img class="product-image" src="resources/images/watch.png" alt="Product Image">
+            <h2 class="product-description">Cellular Watch</h2>
+          </div>
+          <div class="product-container">
+            <img class="product-image" src="resources/images/glasses.png" alt="Product Image">
+            <h2 class="product-description">Thermal Glasses</h2>
+          </div>
         </div>
-        <div class="container">
-          <img src="resources/images/watch.png" alt="Product Image">
-          <h2 class="product-description">Cellular Watch</h2>
-        </div>
-        <div class="container">
-          <img src="resources/images/glasses.png" alt="Product Image">
-          <h2 class="product-description">Thermal Glasses</h2>
+        <!-- Store Location & Hours -->
+        <div class="store-info page-content-container">
+          <div class="container">
+            <h2 class="store-info-category">Location</h2>
+            <h3>-47.346436, 84.32354</h3>
+          </div>
+          <div class="container">
+            <h2 class="store-info-category">Hours</h2>
+            <h3>0800-1800</h3>
+          </div>
         </div>
       </div>
-      <!-- Store Location & Hours -->
-      <div class="store-info page-content">
-        <div class="container">
-          <h2>Location</h2>
-          <h3>-47.346436, 84.32354</h3>
-        </div>
-        <div class="container">
-          <h2>Hours</h2>
-          <h3>0800-1800</h3>
-        </div>
-      </div>
-    </div>
 
-    <!-- Foooter -->
-    <footer>
-      <h2>Copyright Secret Agent Supply Inc.</h2>
-    </footer>
+      <!-- Foooter -->
+      <footer>
+        <div class="page-content-container">
+          <span class="footer-text">Copyright Secret Agent Supply Inc.</span>
+        </div>
+      </footer>
+
+    </div>
   </body>
 </html>
